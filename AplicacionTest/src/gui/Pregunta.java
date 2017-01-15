@@ -5,18 +5,24 @@
  */
 package gui;
 
+import logica.Logica;
+
 /**
  *
  * @author marcostoral
  */
 public class Pregunta extends javax.swing.JDialog {
-
+    Logica logica=new Logica();
     /**
      * Creates new form Pregunta
+     * @param parent
+     * @param modal
+     * @param logica
      */
-    public Pregunta(java.awt.Frame parent, boolean modal) {
+    public Pregunta(java.awt.Frame parent, boolean modal, Logica logica) {
         super(parent, modal);
         initComponents();
+        this.logica=logica;
     }
 
     /**
