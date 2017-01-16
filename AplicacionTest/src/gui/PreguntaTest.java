@@ -11,7 +11,7 @@ import logica.Logica;
  *
  * @author marcostoral
  */
-public class Pregunta extends javax.swing.JDialog {
+public class PreguntaTest extends javax.swing.JDialog {
     Logica logica=new Logica();
     /**
      * Creates new form Pregunta
@@ -19,7 +19,7 @@ public class Pregunta extends javax.swing.JDialog {
      * @param modal
      * @param logica
      */
-    public Pregunta(java.awt.Frame parent, boolean modal, Logica logica) {
+    public PreguntaTest(java.awt.Frame parent, boolean modal, Logica logica) {
         super(parent, modal);
         initComponents();
         this.logica=logica;
