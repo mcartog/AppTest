@@ -22,6 +22,7 @@ public class Logica {
     private List<Tema> listaTemas = new ArrayList<Tema>();
     private List<String> listaRespuestas = new ArrayList<String>();
     private List<String> listaSoluciones = new ArrayList<String>();
+    
     int aciertos, enBlanco, errores;
 
     public List<Tema> getListaTemas() {
